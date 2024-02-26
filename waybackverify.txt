@@ -1,0 +1,3 @@
+URL/URL path to exclude: michoelburger.com (and all subdomains)
+time period of domain ownership: 2016-11-03 to present
+time period to exclude: 2016-11-03 to future
