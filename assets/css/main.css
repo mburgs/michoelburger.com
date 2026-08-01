@@ -178,10 +178,6 @@ img {
   line-height: 1.7;
 }
 
-.hero-subtitle .accent {
-  color: var(--color-accent);
-}
-
 .hero-scroll-hint {
   margin-top: 1.5rem;
   color: var(--color-text-muted);
@@ -366,69 +362,6 @@ img {
   border-radius: 50%;
 }
 
-/* ===== Beyond Work ===== */
-.beyond {
-  background: var(--color-bg);
-}
-
-.beyond h2 {
-  font-size: clamp(1.8rem, 4vw, 2.5rem);
-  font-weight: normal;
-  margin-bottom: 2.5rem;
-}
-
-.beyond-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-}
-
-.beyond-card {
-  padding: 2rem;
-  background: var(--color-card-bg);
-  border-radius: 12px;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-}
-
-.beyond-card h3 {
-  font-size: 1.3rem;
-  font-weight: normal;
-  margin-bottom: 1rem;
-}
-
-.beyond-card p {
-  color: var(--color-text-muted);
-  font-size: 0.95rem;
-  margin-bottom: 0.75rem;
-}
-
-.beyond-card p:last-child {
-  margin-bottom: 0;
-}
-
-.travel-map {
-  margin-top: 1.25rem;
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.travel-location {
-  margin-top: 1rem;
-  font-size: 0.95rem;
-  color: var(--color-text);
-}
-
-.travel-location strong {
-  color: var(--color-accent);
-}
-
-.improv-venues {
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-  margin-top: 0.5rem;
-}
-
 /* ===== Contact ===== */
 .contact {
   background: var(--color-heading);
@@ -444,12 +377,6 @@ img {
   font-size: clamp(1.8rem, 4vw, 2.5rem);
   font-weight: normal;
   margin-bottom: 1rem;
-}
-
-.contact-text {
-  color: rgba(255, 255, 255, 0.7);
-  max-width: 540px;
-  margin-bottom: 2rem;
 }
 
 .contact-links {
@@ -550,10 +477,6 @@ img {
   }
 
   .experience-tracks {
-    grid-template-columns: 1fr;
-  }
-
-  .beyond-grid {
     grid-template-columns: 1fr;
   }
 }
